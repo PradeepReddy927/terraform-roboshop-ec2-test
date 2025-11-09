@@ -21,5 +21,14 @@ output "priv_ip" {
     value = module.catalogue.private_ip
 }
 
+output "instance_id" {
+    value = module.catalogue.instance_id
+}
+
+output "instance_name" {
+    value = module.catalogue.instance_name
+}
+
+
 
 # who developed the modules they are module developer 
